@@ -686,24 +686,26 @@ footer {
 }
 
 .project {
-    position: relative;
+    display:flex;
+    /*position: relative;*/
     max-width: 900px;
     margin: 0 auto 30px auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background: #fff;
     border-radius: 4px;
 }
 
 .project-image {
-    float: left;
+    /*float: left;*/
 }
 
 .project-info {
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 300px;*/
     padding: 15px;
+    align-self: center;
 
     h3 {
         font-size: 1.5em;
